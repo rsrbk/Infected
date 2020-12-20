@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3750DDA4258F98550042861D /* Infected.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3750DDA1258F98550042861D /* Infected.xcconfig */; };
+		3750DDA5258F98550042861D /* Infected.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 3750DDA2258F98550042861D /* Infected.entitlements */; };
+		3750DDA6258F98550042861D /* InfectedWidgetExtension.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 3750DDA3258F98550042861D /* InfectedWidgetExtension.entitlements */; };
 		AD0F97A32579763900030E7C /* GroupedSummaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F97A22579763900030E7C /* GroupedSummaries.swift */; };
 		AD0F97A82579781700030E7C /* GroupedSummaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F97A22579763900030E7C /* GroupedSummaries.swift */; };
 		AD131CBE2559D393003077F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD131CC02559D393003077F3 /* Localizable.strings */; };
@@ -24,7 +27,6 @@
 		AD825D042578306C00CF681B /* GeoArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD825D032578306C00CF681B /* GeoArea.swift */; };
 		ADB726AC257C0FC800AB2DB1 /* WatchlistKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB726AB257C0FC800AB2DB1 /* WatchlistKeeper.swift */; };
 		ADB726D3257C2B0500AB2DB1 /* WatchlistKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB726AB257C0FC800AB2DB1 /* WatchlistKeeper.swift */; };
-		ADB72700257CFDAA00AB2DB1 /* Infected.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ADB726FF257CFDAA00AB2DB1 /* Infected.xcconfig */; };
 		ADB7274C257D135700AB2DB1 /* UserDefaults+Infected.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7274B257D135700AB2DB1 /* UserDefaults+Infected.swift */; };
 		ADB7274D257D135700AB2DB1 /* UserDefaults+Infected.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7274B257D135700AB2DB1 /* UserDefaults+Infected.swift */; };
 		ADBB7CE02517C1DA00F3C8B4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBB7CDF2517C1DA00F3C8B4 /* WidgetKit.framework */; };
@@ -77,6 +79,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3750DDA1258F98550042861D /* Infected.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Infected.xcconfig; path = "config-templates/Infected.xcconfig"; sourceTree = "<group>"; };
+		3750DDA2258F98550042861D /* Infected.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Infected.entitlements; sourceTree = "<group>"; };
+		3750DDA3258F98550042861D /* InfectedWidgetExtension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = InfectedWidgetExtension.entitlements; sourceTree = "<group>"; };
 		AD0F97A22579763900030E7C /* GroupedSummaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedSummaries.swift; sourceTree = "<group>"; };
 		AD131CBF2559D393003077F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AD131CC52559D39D003077F3 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -89,9 +94,6 @@
 		AD825CDB25759D8400CF681B /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 		AD825D032578306C00CF681B /* GeoArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoArea.swift; sourceTree = "<group>"; };
 		ADB726AB257C0FC800AB2DB1 /* WatchlistKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistKeeper.swift; sourceTree = "<group>"; };
-		ADB726FA257CEF0B00AB2DB1 /* Infected.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Infected.entitlements; sourceTree = "<group>"; };
-		ADB726FF257CFDAA00AB2DB1 /* Infected.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Infected.xcconfig; sourceTree = "<group>"; };
-		ADB7273E257D03C900AB2DB1 /* InfectedWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfectedWidgetExtension.entitlements; sourceTree = "<group>"; };
 		ADB7274B257D135700AB2DB1 /* UserDefaults+Infected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Infected.swift"; sourceTree = "<group>"; };
 		ADBB7CDD2517C1DA00F3C8B4 /* InfectedWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InfectedWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBB7CDF2517C1DA00F3C8B4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -154,7 +156,7 @@
 		ADBB7CE32517C1DA00F3C8B4 /* InfectedWidget */ = {
 			isa = PBXGroup;
 			children = (
-				ADB7273E257D03C900AB2DB1 /* InfectedWidgetExtension.entitlements */,
+				3750DDA3258F98550042861D /* InfectedWidgetExtension.entitlements */,
 				ADBB7CE42517C1DA00F3C8B4 /* InfectedWidget.swift */,
 				ADBB7CE62517C1DC00F3C8B4 /* Assets.xcassets */,
 				ADBB7CE82517C1DC00F3C8B4 /* Info.plist */,
@@ -165,7 +167,7 @@
 		ADD4C2F9251627910064A959 = {
 			isa = PBXGroup;
 			children = (
-				ADB726FF257CFDAA00AB2DB1 /* Infected.xcconfig */,
+				3750DDA1258F98550042861D /* Infected.xcconfig */,
 				ADD4C304251627910064A959 /* Infected */,
 				ADD4C316251627920064A959 /* InfectedTests */,
 				ADBB7CE32517C1DA00F3C8B4 /* InfectedWidget */,
@@ -187,7 +189,7 @@
 		ADD4C304251627910064A959 /* Infected */ = {
 			isa = PBXGroup;
 			children = (
-				ADB726FA257CEF0B00AB2DB1 /* Infected.entitlements */,
+				3750DDA2258F98550042861D /* Infected.entitlements */,
 				ADD4C30E251627920064A959 /* Info.plist */,
 				AD74CCC5255DF7B200002500 /* AboutView.swift */,
 				ADE10EEF254F3FEA0080B975 /* AllRegionsView.swift */,
@@ -349,9 +351,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3750DDA4258F98550042861D /* Infected.xcconfig in Resources */,
 				ADD4C30D251627920064A959 /* Preview Assets.xcassets in Resources */,
+				3750DDA6258F98550042861D /* InfectedWidgetExtension.entitlements in Resources */,
+				3750DDA5258F98550042861D /* Infected.entitlements in Resources */,
 				AD131CBE2559D393003077F3 /* Localizable.strings in Resources */,
-				ADB72700257CFDAA00AB2DB1 /* Infected.xcconfig in Resources */,
 				ADD4C30A251627920064A959 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,13 +452,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = InfectedWidget/InfectedWidgetExtension.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = InfectedWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).Widget";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rsrbk.covid.uk.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,13 +474,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = InfectedWidget/InfectedWidgetExtension.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = InfectedWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).Widget";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rsrbk.covid.uk.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +492,6 @@
 		};
 		ADD4C325251627920064A959 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADB726FF257CFDAA00AB2DB1 /* Infected.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -547,7 +554,6 @@
 		};
 		ADD4C326251627920064A959 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADB726FF257CFDAA00AB2DB1 /* Infected.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -609,6 +615,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Infected/Infected.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Infected/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Infected/Info.plist;
@@ -617,6 +624,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rsrbk.covid.uk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -630,6 +639,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Infected/Infected.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Infected/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Infected/Info.plist;
@@ -638,6 +648,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rsrbk.covid.uk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

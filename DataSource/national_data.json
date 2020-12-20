@@ -1,0 +1,27 @@
+{
+  "numbersDate" : "2020-12-20T01:00:00+01:00",
+  "positiveCases" : {
+    "new" : 27052,
+    "trend" : -1455,
+    "total" : 2004219
+  },
+  "deaths" : {
+    "new" : 487,
+    "trend" : -45,
+    "total" : 67075
+  },
+  "hospitalAdmissions" : {
+    "new" : 1730,
+    "trend" : -16
+  },
+  "hospitalOccupancy" : {
+    "currentlyOccupiedTrend" : 125,
+    "currentlyOccupied" : 15866
+  },
+  "intensiveCareOccupancy" : {
+    "currentlyOccupiedTrend" : 2,
+    "currentlyOccupied" : 1190
+  },
+  "updatedAt" : "2020-12-20T15:35:22+01:00",
+  "regionCode" : "NL00"
+}
