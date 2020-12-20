@@ -10,6 +10,10 @@
     "trend" : -45,
     "total" : 67075
   },
+  "hospitalAdmissions" : {
+    "new" : 1730,
+    "trend" : -16
+  },
   "hospitalOccupancy" : {
   	"newAdmissionsTrend" : -16,
   	"newAdmissions" : 1730,
