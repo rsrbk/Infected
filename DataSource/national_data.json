@@ -15,10 +15,10 @@
     "trend" : -16
   },
   "hospitalOccupancy" : {
-  	"newAdmissionsTrend" : -16,
-  	"newAdmissions" : 1730,
-    "currentlyOccupiedTrend" : 125,
-    "currentlyOccupied" : 15866
+   "newAdmissionsTrend" : -16,
+   "newAdmissions" : 1730,
+   "currentlyOccupiedTrend" : 125,
+   "currentlyOccupied" : 15866
   },
   "intensiveCareOccupancy" : {
     "currentlyOccupiedTrend" : 2,
