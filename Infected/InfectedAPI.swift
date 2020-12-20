@@ -23,7 +23,7 @@ final class InfectedAPI {
     }
 
     func national() -> AnyPublisher<Summary, Error> {
-        let url = URL(string: "https://github.com/hungrxyz/infected-data/raw/main/data/latest/national.json")!
+        let url = URL(string: "https://raw.githubusercontent.com/rsrbk/Infected/main/DataSource/national_data.json")!
 
         return urlSession.dataTaskPublisher(for: url)
             .map(\.data)
